@@ -1,0 +1,84 @@
+
+$bg-col:#333;
+$font-color:#fff;
+$primary-color:#008ed6;
+$icon-font-size:30px;
+body{
+  background:$bg-col;
+  color:$font-color;
+
+
+}
+
+
+
+
+.navbar{
+  border-bottom: 3px solid $primary-color ;
+  background: #292b2c;
+  opacity: 0.8;
+  font-size:20px;
+}
+
+#home{
+  background: url('../img/people.jpg') no-repeat center top;
+  background-size: cover;
+  min-height: 700px;
+  background-attachment: fixed;
+
+  .dark-overlay{
+    background: rgba(0,0,0,0.8);
+    min-height: 700px;
+  }
+
+  .fa{
+    background: #fff;
+    color:$primary-color;
+    padding:4px;
+    font-size:$icon-font-size;
+    border-radius: 5px;
+  }
+  .card-form{
+    opacity:0.9;
+  }
+  .home-inner{
+    padding-top: 140px;
+    padding-bottom: 60px;
+  }
+
+}
+#explore{
+  .fa{
+    background:#333;
+    color:#fff;
+    padding:4px;
+    font-size:30px;
+    border-radius:5px;
+  }
+}
+
+
+#create-section{
+  .fa{
+    background:#fff;
+    padding:4px;
+    font-size:30px;
+    border-radius:5px;
+  }
+}
+
+#share-section{
+  .fa{
+    background:green;
+    color:#fff;
+    padding:4px;
+    font-size:30px;
+    border-radius:5px;
+  }
+}
+.photo{
+  img{
+    width:690px;
+    height:500px;
+  }
+}
